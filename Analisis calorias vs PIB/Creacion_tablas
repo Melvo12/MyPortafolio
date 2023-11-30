@@ -1,3 +1,6 @@
+
+####NOTA: Los datos se obtuvieron de la pagina web https://ourworldindata.org/calorie-supply-sources en donde se mostraba el consumo calorico diario per capita 
+
 ----------------- Creación de la tabla general llamada calories -----------------------
 
 CREATE TABLE `daily-per-capita-caloric-supply`.`new_table` (
