@@ -1,7 +1,4 @@
--- Conectarse a la base de datos de calorias consumidas por país
-USE nombre_de_tu_base_de_datos;
-
--- Creación de la tabla se importan los datos 
+----------------- Creación de la tabla general llamada calories -----------------------
 CREATE TABLE `calories`.`new_table` (
   `Country` INT NOT NULL,
   `CountryCode` VARCHAR(45) NOT NULL,
@@ -10,13 +7,38 @@ CREATE TABLE `calories`.`new_table` (
   `new_tablecol` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`CountryCode`));
 
--- Importar datos desde el archivo CSV a la tabla
+-------------- Importar datos desde el archivo CSV a la tabla ------------------------
 LOAD DATA INFILE '/ruta/al/archivo/datos.csv'
-INTO TABLE nombre_de_tu_tabla
+INTO TABLE calories
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS; -- Ignora la primera fila si contiene encabezados
+IGNORE 1 ROWS; -- Ignora la primera fila si contiene encabezados pero en este caso existen encabezados por lo que no hay necesidad de colocarla
 
--- Verificar que los datos se hayan importado correctamente
+--------------- Se Verifica que los datos se hayan importado correctamente -------------------
 SELECT * FROM nombre_de_tu_tabla;
+
+
+--------------- Se hace una revision de la base de datos y se encuentra que hay mezcla de datos entre paises y continentes ------------------
+
+
+------- Creacion tabla sin continentes (Solo datos de países)------
+
+CREATE TABLE `daily_per_capita_caloric_supply_con_continentes` AS
+SELECT *
+FROM `calories`.`daily-per-capita-caloric-supply`
+WHERE Code = '';
+
+select * from daily_per_capita_caloric_supply_con_continentes 
+
+
+#### NOTA: Solamente se encuentran datos de continentes de Asia y europa por lo que el analisis es deficiente y se descartan esos datos ####
+
+
+
+
+
+
+
+
+
