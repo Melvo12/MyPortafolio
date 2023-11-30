@@ -1,0 +1,22 @@
+-- Conectarse a la base de datos de calorias consumidas por país
+USE nombre_de_tu_base_de_datos;
+
+-- Creación de la tabla se importan los datos 
+CREATE TABLE `calories`.`new_table` (
+  `Country` INT NOT NULL,
+  `CountryCode` VARCHAR(45) NOT NULL,
+  `Year` INT NOT NULL,
+  `Daily caloric supply` INT NOT NULL,
+  `new_tablecol` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`CountryCode`));
+
+-- Importar datos desde el archivo CSV a la tabla
+LOAD DATA INFILE '/ruta/al/archivo/datos.csv'
+INTO TABLE nombre_de_tu_tabla
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS; -- Ignora la primera fila si contiene encabezados
+
+-- Verificar que los datos se hayan importado correctamente
+SELECT * FROM nombre_de_tu_tabla;
