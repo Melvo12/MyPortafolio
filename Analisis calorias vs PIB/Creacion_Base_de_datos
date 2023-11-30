@@ -1,5 +1,6 @@
 ----------------- Creación de la tabla general llamada calories -----------------------
-CREATE TABLE `calories`.`new_table` (
+
+CREATE TABLE `daily-per-capita-caloric-supply`.`new_table` (
   `Country` INT NOT NULL,
   `CountryCode` VARCHAR(45) NOT NULL,
   `Year` INT NOT NULL,
@@ -8,8 +9,8 @@ CREATE TABLE `calories`.`new_table` (
   PRIMARY KEY (`CountryCode`));
 
 -------------- Importar datos desde el archivo CSV a la tabla ------------------------
-LOAD DATA INFILE '/ruta/al/archivo/datos.csv'
-INTO TABLE calories
+LOAD DATA INFILE '/ruta/al/archivo/daily-per-capita-caloric-supply.csv'
+INTO TABLE daily-per-capita-caloric-supply
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
@@ -19,12 +20,14 @@ IGNORE 1 ROWS; -- Ignora la primera fila si contiene encabezados pero en este ca
 SELECT * FROM nombre_de_tu_tabla;
 
 
+####NOTA: La tabla creada tiene como nombre daily-per-capita-caloric-supply 
+
 --------------- Se hace una revision de la base de datos y se encuentra que hay mezcla de datos entre paises y continentes ------------------
 
 
 ------- Creacion tabla sin continentes (Solo datos de países)------
 
-CREATE TABLE `daily_per_capita_caloric_supply_con_continentes` AS
+CREATE TABLE `daily_per_capita_caloric_supply_con_continentes` AS 
 SELECT *
 FROM `calories`.`daily-per-capita-caloric-supply`
 WHERE Code = '';
