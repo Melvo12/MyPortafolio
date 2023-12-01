@@ -4,9 +4,8 @@
 
 **Proyectos Destacados:**
 
-- [Proyecto 1]): Una breve descripción de tu primer proyecto.
-- [Proyecto 2](enlace-al-proyecto-2): Una breve descripción de tu segundo proyecto.
-- ...
+- Analisis calorias vs PIB: Se calcula la relacion entra de las calorias diarias a traves de los diferentes años en diferente países como Estados unidos, Colombia, Canada, España y el Reino unido.
+  Todo esto utilizando MySQL workbench, Power BI y RStudio para el analisis de datos.
 
 **Habilidades:**
 
