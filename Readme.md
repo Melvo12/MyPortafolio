@@ -10,8 +10,8 @@
 **Habilidades:**
 
 - Análisis de datos
-- Visualización de datos
-- Estadísticas
-- ...
+- Visualización de datos en Power BI
+- Estadística
+- Excel
 
 ¡Gracias por visitar mi portafolio!
