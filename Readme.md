@@ -4,7 +4,7 @@
 
 **Proyectos Destacados:**
 
-- [Proyecto 1](enlace-al-proyecto-1): Una breve descripción de tu primer proyecto.
+- [Proyecto 1]): Una breve descripción de tu primer proyecto.
 - [Proyecto 2](enlace-al-proyecto-2): Una breve descripción de tu segundo proyecto.
 - ...
 
