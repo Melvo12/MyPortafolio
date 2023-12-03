@@ -1,17 +1,18 @@
-# Mi Portafolio de Analista de Datos
+# My portafolio
 
-¡Hola! Soy [Tu Nombre], un apasionado analista de datos con experiencia en [menciona algunas de tus habilidades o proyectos destacados]. Este repositorio alberga una muestra de mis proyectos y trabajos relacionados con el análisis de datos.
+Hello! I'm Daniel, also known as Melvo12 on GitHub. I'm passionate about data analysis, and that's reflected in my experience with Power BI, SQL, Excel, and Python, as showcased in the projects included in this portfolio. Here, you'll find a glimpse of my projects and works related to data analysis.
 
-**Proyectos Destacados:**
+## Highlighted Projects:
 
-- Analisis calorias vs PIB: Se calcula la relacion entra de las calorias diarias a traves de los diferentes años en diferente países como Estados unidos, Colombia, Canada, España y el Reino unido.
-  Todo esto utilizando MySQL workbench, Power BI y RStudio para el analisis de datos.
+-Calories vs GDP Analysis: I explore the relationship between daily calorie intake over different years in various countries such as the United States, Colombia, Canada, Spain, and the United Kingdom.
 
-**Habilidades:**
+-Toy Sales Dashboard: I created this dashboard using Excel, incorporating SQL table joining skills and data visualization in Power BI. All notes and documentation are available in a Python notebook.
 
-- Análisis de datos
-- Visualización de datos en Power BI
-- Estadística
-- Excel
+## Skills:
 
-¡Gracias por visitar mi portafolio!
+-Data Analysis
+-Data Visualization in Power BI
+-Statistics
+-Excel
+
+  Thank you for visiting my portfolio!
