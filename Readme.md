@@ -17,4 +17,4 @@ Hello! I'm Daniel, also known as Melvo12 on GitHub. I'm passionate about data an
 - SQL
 - Python
 
-  Thank you for visiting my portfolio!
+  Thank you for visiting my portfolio! :)
