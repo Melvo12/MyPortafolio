@@ -10,9 +10,11 @@ Hello! I'm Daniel, also known as Melvo12 on GitHub. I'm passionate about data an
 
 ## Skills:
 
--Data Analysis
--Data Visualization in Power BI
--Statistics
--Excel
+- Data Analysis
+- Data Visualization in Power BI
+- Statistics
+- Excel
+- SQL
+- Python
 
   Thank you for visiting my portfolio!
