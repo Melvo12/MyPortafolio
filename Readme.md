@@ -6,7 +6,7 @@ Hello! I'm Daniel, also known as Melvo12 on GitHub. I'm passionate about data an
 
 -Calories vs GDP Analysis: I explore the relationship between daily calorie intake over different years in various countries such as the United States, Colombia, Canada, Spain, and the United Kingdom.
 
--Toy Sales Dashboard: I created this dashboard using Excel, incorporating SQL table joining skills and data visualization in Power BI. All notes and documentation are available in a Python notebook.
+-Toy Sales Dashboard: I created this dashboard using Power Bi, incorporating SQL table joining skills and data in Excel. All notes and documentation are available in a Python notebook.
 
 ## Skills:
 
